@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    /* Light gray background */
+    margin: 0;
+    padding: 20px;
+    color: #343a40;
+    /* Dark gray text color */
+}
+
+/* Header Styles */
+h1 {
+    color: #007BFF;
+    /* Blue color for the header */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    /* Bold labels */
+}
+
+/* Input Styles */
+input {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    /* Increased max-width for better usability */
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    /* Light gray border */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    transition: border-color 0.3s;
+    /* Smooth transition for border color */
+}
+
+input:focus {
+    border-color: #007BFF;
+    /* Change border color on focus */
+    outline: none;
+    /* Remove default outline */
+}
+
+/* Button Styles */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007BFF;
+    /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    /* Smooth transitions */
+    width: 100%;
+    /* Full width button */
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    transform: translateY(-2px);
+    /* Slight lift effect */
+}
+
+/* Output Styles */
+.output {
+    margin-top: 20px;
+    background-color: #ffffff;
+    /* White background for output */
+    padding: 15px;
+    border: 1px solid #ced4da;
+    /* Light gray border */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+
+    input,
+    button {
+        max-width: 100%;
+        /* Full width on smaller screens */
+    }
+}
